@@ -1,0 +1,36 @@
+Ricky Portfolio 2020
+
+(html , css, javascript, bootstrap)
+
+
+
+
+IF YOU WANT TO ADD A VIDEO 
+
+---HTML snippet--
+<!--Video-->
+    <div class="video-container">
+      <video autoplay muted loop>
+          <source src="./images/sakura.m4v" type="video/mp4"/>
+      </video>
+      <h2>Your caption here</h2>
+  </div>
+
+--CSS snippet--
+
+/*Video*/
+.video-container {
+    height: 50vh;
+    width: 100vw;
+    overflow: hidden;
+    position: relative;
+}
+
+video {
+  min-width: 100%;
+  min-height: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}

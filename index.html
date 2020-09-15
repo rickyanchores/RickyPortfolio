@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Bootstrap-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <!--Personal CSS-->
+    <link rel="stylesheet" href="./css/style.css">
+    <!--FavICON-->
+    <script src="https://kit.fontawesome.com/a20bc1d9fe.js" crossorigin="anonymous"></script>
+    <title>Ricky A</title>
+</head>
+<body>
+    
+    <!--Navbar-->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark ">
+        <a class="navbar-brand" href="#">RA</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+            </li>
+            
+
+            
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+            </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+          </form>
+        </div>
+      </nav>
+    <!--Greet-->
+    <div class="greet">
+        <h1>Ricky Anchores</h1>
+    </div>  
+    <!--Showcase-->
+    <section id="showcase">
+        <div class="personal_img">
+            <img src="./images/me1.jpg" alt="" width="250">
+        </div>
+        <div class="personal_txt">
+            <h3>Ciao, I'm <h2 class="myName">RICKY</h2>  <br>
+                <h1>Junior Front End Developer</h1>
+            </h3>
+        </div>
+    </section>
+
+    <!--About Me-->
+
+    <section id="about">
+        <div class="about_txt">
+            <h3>More about me</h3>
+            <br>
+            <h6>Web developing and music production allow me to express my creativity</h6>
+            <h3>"BYTE ME"</h3>
+        </div>
+        <div class="about_img">
+            <img src="./images/me2.jpg" width="300" alt="">
+        </div>    
+    </section>
+
+    <!--Skillset-->
+    <section id="skillset">
+        <h3>Top Expertise</h3>
+        <div class="skills_container">
+           <ul>
+               <li><h5>HTML</h5></li>
+               <li><h5>CSS</h5></li>
+               <li><h5>JAVASCRIPT</h5></li>
+               <li><h5>BOOTSTRAP</h5></li>
+               <li><h5>REACT</h5></li>
+           </ul>
+        </div>
+    </section>
+    <!--Projects-->  
+      
+    <div id="cards">
+       
+        <div class="card">
+            <img src="./images/project1.png" width="300" alt="">
+            <h3>RGame</h3>
+            Pure HTML and CSS game website 
+            <a href="">LIVE</a>
+        </div>
+
+        <div class="card">
+            <img src="./images/project7.png" width="300" alt="">
+            <h3>AnimeK</h3>
+            HTML CSS and Bootstrap website with Japanese Manga Characters Gallery
+            <a href="">LIVE</a>
+        </div>
+
+        <div class="card">
+            <img src="./images/project6.png" width="300" alt="">
+            <h3>Hotels & Resort</h3>
+            Grid CSS use for this hotel type of website
+            <a href="">LIVE</a>
+        </div>
+    </div>
+
+    <!--SCROLL TOP-->
+    <button onclick="topFunction()" id="myBtn" title="Go to top"><img src="./images/me1.jpg" width="50" alt=""></button>
+    <!-- Contact Form-->
+    <form>
+        <div class="form-group">
+          <label for="exampleFormControlInput1">Email address</label>
+          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+        </div>
+        <div class="form-group">
+          <label for="exampleFormControlTextarea1">Example textarea</label>
+          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        </div>
+      </form>
+    <!--Media-->
+    <div id="media">
+      <div class="media_txt">
+      <h4>Follow ME</h4>
+      </div>
+      <div class="icon-container">
+      <ul>
+          <li><i class="fab fa-instagram"></i><a href="https://www.instagram.com/rikid_ev/" target="_blank"> rikid_ev</a></li>
+          <li><i class="fab fa-github"></i><a href="https://github.com/rickyanchores" target="_blank"> rickyanchores</a></li>
+      </ul>
+      </div>
+  </div>  
+    <!--Footer-->
+    <footer id="main-footer">
+        <div class="container">
+            <h6>Copyright &copy;2020 by Ricky A</h6>
+        </div>
+    </footer>
+ 
+    <!--JS Bootstrap-->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
+    <!--Personal JS-->
+    <script src="./index.js"></script>
+</body>
+</html>
