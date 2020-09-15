@@ -227,3 +227,50 @@ form{
         margin: auto;
     }
 }
+@media only screen and (device-width : 414px) and (device-height : 896px) and (-webkit-device-pixel-ratio : 2) {
+     /*showcase*/
+     #showcase{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    #showcase img{
+        width: 150px;
+        margin: auto;
+    }
+    #showcase{
+        text-align: center;
+    }
+    .myName{
+        color: teal;
+    }
+    
+    
+
+    /* CArds */
+    #cards{
+        display:flex;
+        flex-wrap: wrap;
+    }
+    /* About */
+    #about{
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+        width: 100vw;
+    }
+    .about_img{
+        margin: auto;
+    }
+    /* Skillset */
+    #skillset{
+        display: flex;
+        flex-wrap: wrap;
+        margin: auto;
+    }
+    /* Footer */
+    #main-footer{
+        margin: auto;
+    }
+}
